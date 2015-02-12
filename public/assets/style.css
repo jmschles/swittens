@@ -1,0 +1,13 @@
+.img-responsive {
+  margin: 0 auto;
+}
+
+.calibri {
+  font-family: calibri;
+}
+
+.fancy-border {
+  padding: 8px;
+  border: 8px inset #9C661F;
+  border-radius: 3px;
+}

@@ -1,0 +1,14 @@
+{
+  "name"         : "swanson-quotes",
+  "version"      : "0.0.0",
+  "description"  : "Requires no explanation",
+  "main"         : "server.js",
+  "author"       : "jmschles",
+  "dependencies" : {
+    "express"    : "~4.7.2",
+    "mongoose"   : "~3.6.2",
+    "morgan"     : "~1.2.2",
+    "body-parser": "~1.5.2",
+    "flickrapi"  : "0.3.28"
+  }
+}

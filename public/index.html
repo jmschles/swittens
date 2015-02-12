@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/style.css" />
+</head>
+<body>
+  <div ng-app='quote'>
+    <div ng-controller='KittenController as kitten'>
+      <div class="well well-lg">
+        <random-kitten></random-kitten>
+      </div>
+    </div>
+
+    <div ng-controller='QuoteController as quote'>
+      <blockquote>
+        <div class="well well-sm">
+          <h3 class="text-center calibri"><em><strong>"{{ quote.contents }}"</strong></em><h3>
+        </div>
+      </blockquote>
+    </div>
+  </div>
+  <script type="text/javascript" src="assets/angular.min.js"></script>
+  <script type="text/javascript" src="core.js"></script>
+</body>
